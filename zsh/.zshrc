@@ -17,3 +17,9 @@ autoload -Uz colors && colors
 
 # Aliases
 alias v="nvim"
+alias ls="ls -alFG"
+
+# Sourcing
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/catppuccin_mocha.omp.json)"
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
